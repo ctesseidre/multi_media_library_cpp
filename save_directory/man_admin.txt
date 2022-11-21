@@ -1,0 +1,66 @@
+Welcome in the mediatheque documentation
+
+"bye"
+Quit application
+-------------------------------------------------------------------------------------
+
+"add" type_name
+add a media to the mediatheque. 
+Pass in argument the type of media to add
+-------------------------------------------------------------------------------------
+
+"load" filename
+load media stocked in a file to the mediatheque.
+pass in argument the path of the file to load.
+If no path is given the file ../svae_directory/Mediatheque.txt is loaded
+-------------------------------------------------------------------------------------
+
+"save" filename
+save the content of the Mediatheque in a file.
+pass in argument the path of the file where you want to save the mediatheque.
+If no path is given the file ../svae_directory/Mediatheque.txt is used
+-------------------------------------------------------------------------------------
+
+"search" chaine
+search in media the chian pass in argument.
+If you did succesive search, the search is applied on the previous result
+-------------------------------------------------------------------------------------
+
+"clear"
+clear the search result
+-------------------------------------------------------------------------------------
+
+"list"
+show the result of the search.
+-------------------------------------------------------------------------------------
+
+"show" id
+show on terminal the media whose the id is specified in argument 
+If no id is given the command show all the mediatheque
+-------------------------------------------------------------------------------------
+
+"delete" id
+delete the media corresponding to the id given in argument
+-------------------------------------------------------------------------------------
+
+"borrow" id
+borrow the Media which the id is given in argument 
+-------------------------------------------------------------------------------------
+
+"return" id
+return the Media which the id is given in argument  
+-------------------------------------------------------------------------------------
+
+"reset"
+delete all the media of the mediatheque. 
+-------------------------------------------------------------------------------------
+
+"clean"
+erase the screen
+-------------------------------------------------------------------------------------
+
+"connect" password
+Enter in the mediatheque.
+If you are admin please enter the password of the mediatheque in argument 
+If you are client do no enter argument
+-------------------------------------------------------------------------------------
